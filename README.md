@@ -1,6 +1,6 @@
 # Minimax implementation with alpha-beta pruning of the [Tafl Game](https://en.wikipedia.org/wiki/Tafl_games)
 
-#### Desktop game using Java and Swing for GUI. 
+#### Desktop game using Java and Swing for GUI.
 #### AI implemented with [Minimax algorithm](https://en.wikipedia.org/wiki/Minimax) optimized with alpha-beta pruning
 
 To play, download or clone the repository. Then, change directory and execute
@@ -33,7 +33,6 @@ java -jar game.jar –file boards/15x15.txt -maxtime 4 -visual -prune
 * [Ivan Itzcovich](https://github.com/iitzco)
 * [Kevin Kraus](https://github.com/kevinkraus92)
 * Lucas Carmona
-
 
 
 
