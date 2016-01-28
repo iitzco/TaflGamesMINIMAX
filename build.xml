@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Tafle Games" default="fuga" basedir=".">
+ 
+	<target name="compile">
+		<mkdir dir="bin"/>
+		<javac srcdir="src" destdir="bin" classpath="lib/junit-4.7.jar"/>
+	</target>
+
+	<target name="fuga" depends="compile">
+		<jar destfile="game.jar" basedir="bin">
+		<manifest>
+			<attribute name="Main-Class" value="game.Main"/>
+		</manifest>
+		</jar>
+	</target>
+
+	<target name="clean">
+		<delete dir="bin"/>
+		<delete file="game.jar" />
+	</target>
+ 
+</project>
